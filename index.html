@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/e05c7fc31c.js" crossorigin="anonymous"></script>
+        <title> 
+            Home
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+body{
+    background: #091C2A;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items:right;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    color: #FC0000;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+ 
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #7D0FEC;
+    transition: .5s;    
+}
+
+.blurred-image:hover{
+    opacity: 50%;
+    transition: .5s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.content h1{
+    margin: 20px 0px 20px;
+    font-size: 75px;
+   
+}
+.content h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 50%;   
+}
+
+.content h4{
+    color: gray;
+    margin-bottom: 5%;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.icon i {
+    font-size: 35px; 
+    padding:  20px 50px;
+    color: white;  
+}
+
+a:hover i.fab.fa-facebook {
+    color:blueviolet;
+    transition: .5s;
+  }
+
+a:hover i.fab.fa-instagram{
+    color:red;
+    transition: .5s;
+}
+
+a:hover i.fab.fa-whatsapp{
+    color:green;
+    transition: .5s;
+}
+
+.about_page{
+    width: 90%;
+    padding: 10px;
+ }
+
+ .about_page h1{
+    color: white;
+    font-size: 35px;
+    text-align: left ;
+    padding-left: 30px;
+    margin-bottom: 30px;
+ }
+ .about_page h3{
+    color: white;
+    word-spacing: 2px;
+ }
+ 
+ 
+
+ .about_img{
+    height: 50%;  
+ }
+
+ .sup{
+    color: #FFC700;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 50px;
+ }
+
+.new_letter form{
+    position: absolute;
+    top: 50px;
+    left: 3%;
+    transform: translateY(-50%);
+    margin-top: 200px;
+    padding: 40px;
+    height: 40px;
+    width: 500px;
+    padding: 20px;
+
+    
+    
+}
+.new_letter form input{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid;
+    background-color: rgba(137, 102, 113, 0.867);
+    outline: none;
+    color: black;
+    margin-bottom: 30px;
+
+    
+}
+.new_letter form input:nth-child(3){
+    height: 100px;
+}
+.new_letter form input:nth-child(4){
+    position: relative;
+    display: inline;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    background-color: #B8BB2D;
+}
+.new_letter form input:last-child:hover{
+    background-color: #F4F907;
+    transition: .5s;
+}
+
+.mail_text{
+    width: 90%;
+    padding: 10px;
+}
+.mail_text h1{
+    color: white;
+    font-size: 30px;
+    text-align: left ;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    margin-left: 800px;
+ }
+ .mail_text h3{
+    color: white;
+    word-spacing: 2px;
+    margin-left: 1010px;
+    margin-bottom: 30px;
+ }
+
+ .mail_text h4{
+    color: white;
+    word-spacing: 2px;
+    margin-left: 1000px;
+    margin-bottom: 30px;
+    font-size: 20px;
+ }
+ .icons i {
+    font-size: 35px; 
+    padding:  20px 50px;
+    color: white; 
+    margin-left: 1000px; 
+}
+.contents2 h1{
+    margin-left: 110px;
+    margin-top: 35px;
+    color: white;
+}
+
+.skill_img img{
+    height: 600px;
+}
+
+.box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    position: relative;
+   
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    padding: 20px 35px;
+    background: #502E2E;
+    border-radius: 20px 20px 20px 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    box-shadow: #502E2E;
+    float: right;
+    margin-right: 5%;
+    font-size: 28px;
+    padding-top: 50px;
+}
+        </style>
+    </head>
+    <body>
+        <div class = "hero">
+            <nav> 
+                <h2 class = "logo">SDG</h2>
+                <ul> 
+                    <li><a href ="#">Home</li>
+                    <li><a href ="About.html">About me</li>
+                    <li><a href ="contact.html">Contacts</li>
+                    <li><a href ="skill.html">Skills</li> 
+                </ul>
+            </nav>
+            <div class = "content">
+                <h4>Hello, my name is</h4>
+                <h1><span style="color: white;">Sonam</span> <span style="color: #8E4343;">Dorji</span> </h1>
+                <h3>Currently pursuing  Software Engineering at College of Science and Technology.</h3>
+            </div >
+             <div class = blurred-image>
+                <img src="sticker.webp" alt="pic" style="float: right; margin-right: 10%; width: 400px; opacity: 1000%; border: 1px solid #000; border-radius: 50%; overflow: hidden; margin-top: 5%;">
+            </div>
+        </div> 
+
+       <div class = "icon">
+        <a href="https://www.facebook.com/sonam.dorji.90663"> 
+            <i class="fab fa-facebook"></i> 
+          </a>
+          <a href="https://www.instagram.com/sonamdorji237/"> 
+            <i class="fab fa-instagram"></i> 
+          </a>
+          <a href="https://web.whatsapp.com/">
+            <i class="fab fa-whatsapp"></i> 
+          </a>
+          
+       </div>
+    </body>
+</html>
